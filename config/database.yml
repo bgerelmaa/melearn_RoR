@@ -21,11 +21,10 @@ default: &default
   # https://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
-  database: ddo2r144enp77d
-  host: ec2-18-214-211-47.compute-1.amazonaws.com
-  user: ogkymdlbfetqkr
-  port: 5432
-  password: 01ca02de94e91d62cc68c11ed877782896023a70d3629a09e29589f2628fc247
+  host: ec2-50-17-90-177.compute-1.amazonaws.com
+  database: d5eqddoc62u9uo
+  user: yvfghyqxsznnko
+  password: aa12deebd5e92e9481ac0c87e34c58647a9085a3a64641aa7ae73103ecde95fa
 
 development:
   <<: *default
